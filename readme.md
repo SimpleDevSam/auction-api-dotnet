@@ -1,7 +1,13 @@
-# [Your Project Name]
+# Auction
 
 ## Description
-This is a project of an API which handled Auction events. It is built using .NET with Entity Framework Core 8.02 for data access, ASP.NET Identity for authentication and user management, and SQLite as the database. The project includes a comprehensive suite of unit tests using Xunit, FluentAssertions, BOGUS, and Moq. API documentation is provided via Swagger.
+This is a project of an API which handled Auction events:
+
+- Get Current Auction
+- Create items to a auction
+ -check on swagger https://localhost:7037/swagger/index.html
+  
+. It is built using .NET with Entity Framework Core 8.02 for data access, ASP.NET Identity for authentication and user management, and SQLite as the database. The project includes a comprehensive suite of unit tests using Xunit, FluentAssertions, BOGUS, and Moq. API documentation is provided via Swagger.
 
 ## Getting Started
 
@@ -29,10 +35,6 @@ This project uses Xunit for unit testing, FluentAssertions for more expressive t
 To run the tests, use the following command:
 dotnet test
 
-
-## API Documentation
-API documentation is available through Swagger. Once the application is running, navigate to:
-http://localhost:[port]/swagger
 
 
 ## Built With
